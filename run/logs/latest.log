@@ -1,0 +1,89 @@
+[20:24:04] [Client thread/INFO]: Setting user: Player684
+[20:24:07] [Client thread/INFO]: LWJGL Version: 2.9.4
+[20:24:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magia Mod
+[20:24:14] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:24:14] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[20:24:14] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:24:14] [Thread-8/ERROR]: Error in class 'LibraryLWJGLOpenAL'
+[20:24:14] [Thread-8/ERROR]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[20:24:14] [Thread-8/WARN]: ERROR MESSAGE:
+[20:24:14] [Thread-8/INFO]: Could not locate OpenAL library.
+[20:24:14] [Thread-8/WARN]: STACK TRACE:
+[20:24:14] [Thread-8/INFO]: org.lwjgl.openal.AL.create(AL.java:156)
+[20:24:14] [Thread-8/INFO]: org.lwjgl.openal.AL.create(AL.java:102)
+[20:24:14] [Thread-8/INFO]: org.lwjgl.openal.AL.create(AL.java:206)
+[20:24:14] [Thread-8/INFO]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[20:24:14] [Thread-8/INFO]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[20:24:14] [Thread-8/INFO]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[20:24:14] [Thread-8/INFO]: paulscode.sound.CommandThread.run(CommandThread.java:121)
+[20:24:14] [Sound Library Loader/WARN]: ERROR MESSAGE:
+[20:24:14] [Sound Library Loader/INFO]: Could not locate OpenAL library.
+[20:24:14] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:24:15] [Thread-10/INFO]: Switching to No Sound
+[20:24:15] [Thread-10/INFO]: (Silent Mode)
+[20:24:15] [Sound Library Loader/INFO]: Sound engine started
+[20:24:17] [Client thread/INFO]: Created: 16x16 textures-atlas
+[20:24:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magia Mod
+[20:24:20] [Client thread/INFO]: SoundSystem shutting down...
+[20:24:21] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[20:24:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:24:21] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[20:24:21] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:24:21] [Thread-12/INFO]: OpenAL initialized.
+[20:24:21] [Sound Library Loader/INFO]: Sound engine started
+[20:24:23] [Client thread/INFO]: Created: 512x512 textures-atlas
+[20:24:25] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[20:25:30] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[20:25:30] [Server thread/INFO]: Generating keypair
+[20:25:31] [Server thread/INFO]: Preparing start region for level 0
+[20:25:32] [Server thread/INFO]: Preparing spawn area: 8%
+[20:25:33] [Server thread/INFO]: Preparing spawn area: 21%
+[20:25:34] [Server thread/INFO]: Preparing spawn area: 33%
+[20:25:35] [Server thread/INFO]: Preparing spawn area: 48%
+[20:25:36] [Server thread/INFO]: Preparing spawn area: 62%
+[20:25:37] [Server thread/INFO]: Preparing spawn area: 77%
+[20:25:38] [Server thread/INFO]: Preparing spawn area: 92%
+[20:25:39] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:25:40] [Server thread/INFO]: Player684[local:E:58d1814a] logged in with entity id 793 at (217.5, 64.0, 233.5)
+[20:25:40] [Server thread/INFO]: Player684 joined the game
+[20:25:41] [Server thread/INFO]: Saving and pausing game...
+[20:25:41] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[20:25:41] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@231668d5[id=9ba1d9fb-277b-3ec4-9552-50e8dd85d3d4,name=Player684,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3060) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_141]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_141]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_141]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_141]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_141]
+[20:25:42] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[20:25:42] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[20:26:15] [Server thread/INFO]: Player684 has just earned the achievement [Taking Inventory]
+[20:26:15] [Client thread/INFO]: [CHAT] Player684 has just earned the achievement [Taking Inventory]
+[20:27:26] [Server thread/INFO]: Saving and pausing game...
+[20:27:26] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[20:27:26] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[20:27:26] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[20:27:27] [Server thread/INFO]: Stopping server
+[20:27:27] [Server thread/INFO]: Saving players
+[20:27:27] [Server thread/INFO]: Saving worlds
+[20:27:27] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[20:27:27] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[20:27:27] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[20:28:07] [Client thread/INFO]: Stopping!
+[20:28:07] [Client thread/INFO]: SoundSystem shutting down...
+[20:28:07] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
