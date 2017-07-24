@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "magiamod",
+  "name": "Magia Mod",
+  "description": "The Magia Magic Mod -under construction-.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Zippity"],
+  "credits": "The Forge and FML guys, for making Forge and FML. WeHaveCookies for his Tutorial Videos.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

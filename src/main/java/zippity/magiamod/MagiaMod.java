@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import zippity.magiamod.item.MagiaModItems;
 import zippity.magiamod.proxy.CommonProxy;
 import zippity.magiamod.tab.CreativeTabMagia;
 
@@ -29,6 +30,7 @@ public class MagiaMod
     public void preInit(FMLPreInitializationEvent event) {
 
         tabMagia = new CreativeTabMagia(CreativeTabs.getNextID(), "tab_magia");
+        MagiaModItems.preInit();
         proxy.preInit(event);
     }
 
